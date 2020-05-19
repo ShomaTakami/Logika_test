@@ -1,48 +1,69 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
 body {
   margin: 20px;
+  background-color: rgb(97, 97, 97);
 }
 /* --------------navigation-------------------- */
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background: rgb(215, 215, 215);
-  padding: 30px;
+  padding: 10px;
 }
 nav a {
   color: white;
 }
 #icon {
-  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: none;
 }
+
 nav a:hover {
   color: black;
   text-decoration: none;
 }
 nav > ul {
-  float: right;
+  /* float: right; */
+  text-align: center;
+  padding: 0;
 }
 nav ul li {
   display: inline-block;
-  padding-right: 10px;
+  padding: 20px 20px 0px 20px;
 }
 
 /* ----------------content----------------------- */
-.card {
-  border: none;
+.content {
+  color: rgb(181, 181, 181);
 }
 .img-fluid {
-  max-width: 50%;
-  height: auto;
-  margin: 10px 20px 20px 0px;
+  width: 100%;
+  margin: 5px 0px;
 }
 .header_text {
-  display: inline-block;
-  margin: 10px auto;
-  max-width: 45%;
-  float: right;
-  /* border: 1px solid red; */
+  width: 100%;
+}
+.header_text h1 {
+  padding: 30px 30px 20px;
+  font-family: arial;
+  font-size: 40px;
+  line-height: 40px;
 }
 .header_text p {
-  font-size: 1rem;
+  padding: 0px 30px 20px;
+  font-family: arial;
+  font-size: 16px;
+  line-height: 20px;
+}
+.card {
+  border: none;
+  background: rgb(97, 97, 97);
+}
+.content .row {
+  margin: 10px 0;
 }
 /* -----------------footer-------------- */
 .content_box {

@@ -1,0 +1,51 @@
+body {
+  margin: 20px;
+}
+/* --------------navigation-------------------- */
+nav {
+  margin-bottom: 20px;
+  background: rgb(215, 215, 215);
+  padding: 30px;
+}
+nav a {
+  color: white;
+}
+#icon {
+  font-size: 20px;
+}
+nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+nav > ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+/* ----------------content----------------------- */
+.card {
+  border: none;
+}
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+  margin: 10px 20px 20px 0px;
+}
+.header_text {
+  display: inline-block;
+  margin: 10px auto;
+  max-width: 45%;
+  float: right;
+  /* border: 1px solid red; */
+}
+.header_text p {
+  font-size: 1rem;
+}
+/* -----------------footer-------------- */
+.content_box {
+  max-width: 450px;
+  padding: 5px;
+}
